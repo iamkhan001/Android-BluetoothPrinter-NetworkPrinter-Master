@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_part_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="This is Printer Test"
+            android:textSize="@dimen/text_large"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_input"
+            android:layout_margin="@dimen/space_normal"
+            android:hint="@string/enter_text_here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/print_as_ntext"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/space_small"
+                android:id="@+id/btn_print_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_weight="1"
+                android:text="@string/print_qr_code"
+                android:layout_margin="@dimen/space_small"
+                android:id="@+id/btn_print_qr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_weight="1"
+                android:text="@string/print_barcode"
+                android:layout_margin="@dimen/space_small"
+                android:id="@+id/btn_print_barcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_part_2"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/img_android"
+            android:layout_margin="@dimen/space_sm"
+            android:layout_width="@dimen/size_xxl"
+            android:layout_height="@dimen/size_xxl" />
+
+        <Button
+            android:id="@+id/btn_print_image"
+            android:text="@string/print_image"
+            android:layout_margin="@dimen/space_normal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_print_layout"
+        android:text="@string/print_layout"
+        android:layout_margin="@dimen/space_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

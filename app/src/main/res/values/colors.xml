@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red_salmon">#E9967A</color>
+    <color name="red_brick">#B22222</color>
+    <color name="red_indian">#CD5C5C</color>
+    <color name="red_tomato">#FF6347</color>
+
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="gray">#808080</color>
+    <color name="gray_l1">#D0D0D0</color>
+    <color name="gray_l2">#B0B0B0</color>
+    <color name="gray_light">#F0F0F0</color>
+    <color name="green_dark">#2E8B57</color>
+    <color name="green1">#20B2AA</color>
+    <color name="green3">#008080</color>
+    <color name="green4">#004d00</color>
+    <color name="gold_dark">#DAA520</color>
+    <color name="orange">#FFA500</color>
+    <color name="yellow_white">#FAFAD2</color>
+
+    <color name="blue_l1">#1E90FF</color>
+    <color name="blue_r">#4169E1</color>
+
+
+
+    <color name="bg_1">#d3dcf8</color>
+    <color name="bg_2">#e9eefc</color>.
+
+    <color name="state_complete">#d6f5d6</color>
+    <color name="state_allow">#e6fff7</color>
+    <color name="state_start">#f9f9eb</color>
+    <color name="state_cancel">#e6e6e6</color>
+    <color name="transparent">#00000000</color>
+    <color name="glass">#22FFFFFF</color>
+
+    <color name="gray_dark">#404040</color>
+    <color name="si_default_text_color">#FF0000</color>
+    <color name="si_default_text_color_selected">#FF00FF</color>
+    <color name="si_default_indicator_bg">#ee9999</color>
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+
+</resources>

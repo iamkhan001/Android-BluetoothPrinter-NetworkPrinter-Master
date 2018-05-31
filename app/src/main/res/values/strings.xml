@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Print Wireless</string>
+    <string name="choose_printer_type">Connect Printer Via.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wifi">Wifi</string>
+    <string name="bluetooth_devices">Bluetooth Devices</string>
+    <string name="print_layout">Print This Layout</string>
+    <string name="print_image">Print Image</string>
+    <string name="print_barcode">Print Barcode</string>
+    <string name="print_qr_code">Print QR Code</string>
+    <string name="print_as_ntext">Print As Text</string>
+    <string name="enter_text_here">Enter Text Here</string>
+
+</resources>

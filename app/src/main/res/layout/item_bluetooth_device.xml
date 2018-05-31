@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/view_parent"
+    android:padding="@dimen/space_normal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:src="@drawable/ic_bluetooth"
+        android:tint="@color/green1"
+        android:layout_width="@dimen/size_sm"
+        android:layout_height="@dimen/size_sm" />
+
+    <TextView
+        android:layout_toRightOf="@id/img_icon"
+        android:layout_toEndOf="@id/img_icon"
+        android:layout_marginStart="@dimen/space_normal"
+        android:layout_marginLeft="@dimen/space_normal"
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="@dimen/text_normal"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_toRightOf="@id/img_icon"
+        android:layout_toEndOf="@id/img_icon"
+        android:layout_below="@id/text_name"
+        android:layout_marginStart="@dimen/space_normal"
+        android:layout_marginLeft="@dimen/space_normal"
+        android:id="@+id/text_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="@dimen/text_tiny"/>
+
+    <TextView
+        android:layout_below="@id/text_address"
+        android:layout_margin="@dimen/space_small"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</RelativeLayout>

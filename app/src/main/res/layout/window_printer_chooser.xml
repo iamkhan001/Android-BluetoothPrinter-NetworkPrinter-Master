@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/choose_printer_type"
+        android:padding="@dimen/space_sm"
+        android:textSize="@dimen/text_normal"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/space_xl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/view_bluetooth"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            tools:ignore="UseCompoundDrawables,UselessParent">
+
+            <ImageView
+                android:src="@drawable/ic_bluetooth"
+                android:layout_width="@dimen/size_normal"
+                android:layout_height="@dimen/size_normal"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/bluetooth"
+                android:textSize="@dimen/text_normal"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_wifi"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            tools:ignore="UseCompoundDrawables,UselessParent">
+
+            <ImageView
+                android:src="@drawable/ic_wifi"
+                android:layout_width="@dimen/size_normal"
+                android:layout_height="@dimen/size_normal"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/wifi"
+                android:textSize="@dimen/text_normal"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
